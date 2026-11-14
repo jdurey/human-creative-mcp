@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jdurey/human-creative",
+  "title": "Human Creative AI Workflow & Eval Lab",
+  "description": "Remote MCP tools for 3-vendor AI workflow diagnostics, HAR sandboxes, 50v audits, and rubrics.",
+  "version": "1.0.0",
+  "websiteUrl": "https://jdurey.github.io",
+  "repository": {
+    "url": "https://github.com/jdurey/human-creative-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://josh-employer-funnel.josh-durey.workers.dev/mcp"
+    }
+  ]
+}
